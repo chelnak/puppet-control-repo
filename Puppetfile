@@ -16,6 +16,6 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
-mod 'iis',
-    git: 'https://github.com/puppetlabs/puppetlabs-iis',
-    branch: 'MODULES-11188-physical_path_fixes'
+mod 'inifile',
+    git: 'https://github.com/puppetlabs/puppetlabs-inifile',
+    branch: 'main'

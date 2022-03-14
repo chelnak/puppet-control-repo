@@ -29,3 +29,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+$defaults = { 'path' => 'c:\test2.ini' }
+$example = { 'section1' => { 'testsetting1' => 'testvalue1' } }
+inifile::create_ini_settings($example, $defaults)
