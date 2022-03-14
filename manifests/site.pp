@@ -28,8 +28,7 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+
+  include role::support
 }
 
-$defaults = { 'path' => 'c:\test2.ini' }
-$example = { 'section1' => { 'testsetting1' => 'testvalue1' } }
-inifile::create_ini_settings($example, $defaults)
