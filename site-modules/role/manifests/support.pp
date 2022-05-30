@@ -1,4 +1,4 @@
 class role::support {
   include profile::base
-  include profile::modules_11300
+  include profile::gh_833
 }
